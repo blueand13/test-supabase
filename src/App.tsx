@@ -1,11 +1,10 @@
 import React from 'react';
+import { routes } from './routes/route';
 
 function App() {
-  
-  return (
-    <div className="App">
-    </div>
-  );
+
+  return routes()
+
 }
 
 export default App;

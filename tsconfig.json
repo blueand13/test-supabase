@@ -1,15 +1,32 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "baseUrl": ".",
     "paths": {
       //add paths line
-      "@components/*": ["./components/*"],
-      "@css/*": ["./css/*"],
-      "@routes/*": ["./routes/*"],
-      "@lib/*": ["./lib/*"],
-      "@supabase/*": ["./supabase/*"]
+      "@components/*": [
+        "./components/*"
+      ],
+      "@css/*": [
+        "./css/*"
+      ],
+      "@routes/*": [
+        "./routes/*"
+      ],
+      "@lib/*": [
+        "./lib/*"
+      ],
+      "@supabase/*": [
+        "./supabase/*"
+      ],
+      "@dashboard/*": [
+        "./dashboard/*"
+      ]
     },
     "allowJs": true,
     "skipLibCheck": true,
@@ -25,5 +42,13 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src", "components", "routes", "css", "lib", "supabase"]
+  "include": [
+    "src",
+    "components",
+    "routes",
+    "css",
+    "lib",
+    "supabase",
+    "dashboard"
+  ]
 }
